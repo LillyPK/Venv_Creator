@@ -68,15 +68,7 @@ def create_project():
 def main():
     print("Python Project Manager")
     print("-" * 30)
-    print("1. Create a new project")
-    print("-" * 30)
-    
-    choice = input("Enter your choice (1): ").strip()
-    
-    if choice == "1":
-        create_project()
-    else:
-        print("Invalid choice. Please select 1.")
+    create_project()
 
 if __name__ == "__main__":
     main()
